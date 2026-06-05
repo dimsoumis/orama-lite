@@ -1,0 +1,120 @@
+@media (min-width: 1200px) {
+	header {
+		padding: 15px calc(50% - 550px) !important;
+	max-width: 1100px !important;
+	}
+	
+	main {
+		margin: 50px calc(50% - 550px) !important;
+    max-width: 1100px !important;
+	}
+}
+
+@media (max-width: 1199px) {
+main {
+  min-height: calc(100vh - 218px);
+}
+	
+	#logo {
+  width: 155px;
+}
+	
+	nav a {
+  padding: 18px;
+  font-size: 17px;
+	}
+}
+
+@media (min-width: 901px) {
+#mobileNav, #mobileNavigation {
+	display: none;
+	}
+}
+
+@media (min-width: 700px) {
+#accountPage .column1 {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+}
+
+@media (max-width: 899px) {
+     #mainNavigation {
+		 display: none;
+	}
+	
+ #mobileNavigation {
+    width: calc(100% - 30px);
+    position: absolute;
+    z-index: 99999;
+    background: #fff;
+    top: 115px;
+    left: 0px;
+    padding: 0px 15px 15px 15px;
+  }
+	
+	#mobileNavigation a {
+  width: calc(100% - 40px);
+  display: block;
+  text-align: center;
+}
+	
+	#pageTitle {
+		margin: 20px 10px 40px 10px;
+  font-size: 40px;
+  line-height: 50px;
+		width: calc(100% - 20px);
+	}
+	
+	.row {
+ flex-direction: column;
+		align-items: center;
+}
+	
+	.column5, .column4, .column3 {
+  width: 80%;
+  max-width: 200px;
+}
+	
+	.saveScorePage .row {
+		font-size: 20px !important;
+  text-align: center !important;
+	}
+	
+	#accountPage .column2, #contactPage .column2 {
+  width: 100%;
+}
+	
+	#messagesPage .column2 {
+  width: 100%;
+  text-align: center;
+}
+}
+
+@media (max-width: 700px) {
+#accountPage .column1 table, #accountPage .column2 table {
+  display: block;
+  overflow-x: scroll;
+	max-width: 100%;
+}
+	
+		#messagesPage table {
+  display: block;
+  overflow-x: scroll;
+max-width: 100%;
+	}
+	
+	#formaNewMessageToTrainer input, #formaNewMessageToTrainer textarea {
+  max-width: calc(100% - 20px) !important;
+}
+}
+
+@media (max-width: 600px) {
+	#bicepCurlsInstruImage, #overheadPressInstruImage, #lateralRaisesInstruImage, #sitToStandInstruImage, #oneFootBalanceInstruImage {
+  float: none !important;
+  margin: 0px auto 20px auto !important;
+  display: block;
+  max-width: 100%;
+}
+}
